@@ -60,16 +60,10 @@ body{
 }
 
 .main h2{
-	
-	font-size: 4vh;
-  width: 70%;
-  height: 90%;
   text-align: center;
-  font-family: 'Manrope', sans-serif;
-  margin-top: 5vh;
-  margin-left: 20vh;
-  color: #664237;
-  
+  justify-content: center;
+  color: #804000;
+  padding-top: 50px;
 }
 
 .main p{
@@ -89,29 +83,15 @@ body{
 
 /* INICIA EL INDEX */
 
-.marginhr{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-
 .sectioncards{
 	text-align: center;
 	width: 100%;
 	margin: auto;
 }
 
-
 .card{
-	width: 45%;
+	width: 40%;
 	display: inline-block;
-	box-shadow: 20px 24px 21px -5px rgba(0,0,0,0.78);
-  -webkit-box-shadow: 20px 24px 21px -5px rgba(0,0,0,0.78);
-  -moz-box-shadow: 20px 24px 21px -5px rgba(0,0,0,0.78);
-	padding-bottom: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-left: 0;
 	border-radius: 10px;
   background-color: rgb(255, 255, 255);
 }
@@ -145,17 +125,6 @@ body{
   height: 100%;
 }
 
-.h2index h2{
-  font-size: 5vh;
-  width: 70%;
-  height: 90%;
-  padding-bottom: 5%;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 5vh;
-  margin-left: 20vh;
-}
-
 
 .seleccion_grano_p{
   width: 100%;
@@ -170,24 +139,7 @@ body{
   line-height: 150%;
 }
 
-.seleccion_grano_img {
-  padding-left: 10%;
-  align-content: center;
-  border-radius: 20px;
-  height: 10px;
-  width: 10px;
-  justify-content: center;
-}
 
-.tiposdecafeh2{
-  font-size: 4vh;
-  width: 70%;
-  height: 90%;
-  text-align: center;
-  font-family: 'Manrope', sans-serif;
-  margin-top: 5vh;
-  margin-left: 20vh;
-}
 
 .tiposdecafevideo{
   padding-top: 30px;
@@ -226,29 +178,31 @@ body{
 }
 
 .variedades_h2{
-  font-size: 5vh;
-  width: 70%;
-  height: 90%;
-  padding-bottom: 5%;
-  text-align: center;
+  width: 100%;
+  font-size:5vh;
   font-family: 'Manrope', sans-serif;
-  margin-top: 5vh;
-  margin-left: 30vh;
-  color: black
+  padding-top: 70px;
+  padding-left: 30px;
+  justify-content: center;
+  text-align: center;
+  color: #804000;
 
-}
+  
+
+} 
 
 .variedad_p{
   width: 100%;
   color: black;
 	font-size:3vh;
   font-family: 'Raleway', sans-serif;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   padding-left: 10%;
   padding-right: 10%;
   align-items: center;
   line-height: 150%;
+  padding-top: 0px;
 }
 
 .especies{
@@ -314,8 +268,8 @@ body{
   font-family: 'Raleway', sans-serif;
   padding-left: 30px;
   padding-right: 10%;
-  line-height: 200%
-
+  line-height: 200%;
+  margin-top: 20px;
 }
 
 
@@ -334,7 +288,6 @@ body{
   justify-content: center;
   color: #804000;
   padding-top: 50px;
-
 }
 
 .produccionp{
@@ -386,12 +339,21 @@ body{
   padding-top: 50px;
 }
 
+.accordion-button{
+  color: black;
+  text-align: center;
+}
+
+.accordion-body{
+  color: black;
+}
 
 
 .footer{
 	padding-top: 50px;
   text-align: center;
   width: 100%;
+  background-image: url(../assets/img/svg.png);
 }
 
 
@@ -525,28 +487,6 @@ h3{
 p{
   font-size: 14px; 
   color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #804000;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #804000;
 }
 
 
