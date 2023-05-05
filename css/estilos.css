@@ -148,6 +148,7 @@ body{
   border-radius: 20px;
   padding-left: 20%;
   padding-right: 10%;
+  justify-content: center;
 }
 
 .tiposdecafe img{
@@ -346,10 +347,6 @@ body{
 
 .accordion-body{
   color: black;
-}
-
-.tiposdecafe{
-  width: 1100px;
 }
 
 
