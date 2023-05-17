@@ -37,6 +37,25 @@ body{
   background-attachment: fixed;
   }
 
+.header_fail{
+  height: 50vh;
+  background-color: rgb(255, 255, 255);
+  color: #d2b495;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;    
+}
+
+.notfound{
+
+  font-size: 30px;  
+  text-align: center; 
+  padding-bottom: 20px; 
+  color: #000000;
+
+}
+
 
 .Tituloprincipal{
     font-size: 100px;
@@ -449,10 +468,6 @@ button{
   cursor: pointer;
 }
 
-
-button p{
-  color: #fff; 
-}
 
 
 span{
