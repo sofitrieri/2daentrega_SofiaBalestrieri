@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+@import url('https://fonts.googleapis.com/css2? family= Quattrocento+Sans & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+main{
+    line-height: 200%;
+    background-color: rgb(255, 255, 255);
+
+    h2{
+
+        text-align: center;
+        justify-content: center;
+        color: $colorprincipal;
+        padding-top: 20px;
+
+    }
+
+    p{
+        width: 100%;
+        color: $colorsecundario;
+	    font-size:2.5vh;
+        font-family: $fuentegeneral;
+        text-align: left;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        line-height: 200%;
+        padding-top: 0px;
+    }
+    
+    ////// MAIN DEL INDEX ////////
+    
+
+    .sectioncards{
+        text-align: center;
+	    width: 100%;
+	    margin: auto;
+        
+
+        h3{
+            width: 30%;
+            color: $colorsecundario;
+            width: 100%;
+            padding-bottom: 1px;
+            font-size:2vh;
+            font-family: $fuentegeneral;
+            padding: 10px;
+            text-decoration: solid;
+            
+          
+        }
+
+        .card{
+            width: 40%;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+    
+            img{
+                width: 90%;
+                height: 40vh;
+                transition: width 1s, height 1s, transform 2s ;
+                    &:hover{
+                    width: 100%;
+                    height: 42vh;
+                    transform: rotate(1deg);
+                    }
+            }
+        }
+
+    }
+
+    .tiposdecafe{
+
+        iframe{
+            padding-top: 30px;
+            text-align: center;
+            width: 80%;
+            border-radius: 20px;
+            padding-left: 20%;
+            padding-right: 10%;
+            justify-content: center;
+        }
+
+    }
+
+     ////// MAIN DE VARIEDADESDECAFE ////////
+     
+
+     .variedadesdecafe{
+        
+        h2{
+            color: #804000;
+        }
+
+        .variedades_h2{
+            width: 100%;
+            font-size:5vh;
+            font-family: 'Manrope', sans-serif;
+            padding-top: 70px;
+            padding-left: 30px;
+            justify-content: center;
+            text-align: center;
+            color: #804000;            
+        }
+
+        .variedad_p{
+            width: 100%;
+            color: black;
+            font-size:3vh;
+            font-family: 'Raleway', sans-serif;
+            text-align: left;
+            justify-content: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            align-items: center;
+            line-height: 150%;
+            padding-top: 0px;            
+        }
+
+        .especies{
+            width: 100%;
+            font-size:5vh;
+            font-family: 'Manrope', sans-serif;
+            padding-top: 70px;
+            padding-left: 30px;
+            justify-content: center;
+            text-align: center;
+            color: #804000;
+
+
+
+        }
+        ul{
+            li{
+                width: 100%;
+                font-size:3vh;
+                padding-left: 30px;
+                text-decoration: none;
+                display: inline-block;
+                justify-content: flex-start;
+                color: #c7a17a;                
+            }
+        }
+
+
+       .especies_p{
+            width: 100%;
+            color: black;
+            font-size:3vh;
+            padding-top: 20px;
+            justify-content: flex-start;
+            padding-left: 30px;
+            font-family: 'Raleway', sans-serif;
+            line-height: 150%;        
+       } 
+
+       .vsarabrobus{
+            list-style: none;
+            width: 100%;
+            color: black;
+            font-size:3vh;
+            font-family: 'Raleway', sans-serif;
+            padding-left: 30px;
+            padding-right: 10%;
+            line-height: 200%;
+            margin-top: 20px;
+      }      
+
+     }
+        
+     ////// MAIN DE TIPOS DE PRODUCCION ////////
+    
+
+    .produccion{
+        text-align: center;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;        
+
+        .plantacionh2{
+            
+            color: #804000;
+            padding-top: 50px;            
+        }
+
+          .produccion_plantacionp{
+            width: 100%;
+            color: black;
+            font-size:2vh;
+            font-family: $fuentegeneral;
+            text-align: left;
+            padding-left: 10%;
+            padding-right: 10%;
+            align-items: center;
+            line-height: 200%;
+            padding-top: 0px;
+          }
+
+    }
+        
+
+
+     ////// MAIN DE CONTACTO////////  
+
+     .contact_form{  
+        width: 460px; 
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #fbfbfb; 
+        padding-left: 30px; 
+      }
+      
+      
+      input{
+        background-color: #fbfbfb; 
+        width: 408px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #804000; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+      }
+      
+      
+      textarea{
+        background-color: #fbfbfb; 
+        width: 405px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #804000; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+      }
+      
+      
+      label{
+        display: block; 
+        float: center;  
+      }
+      
+      
+      button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #804000; 
+        border-color: #804000; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 420px;   
+        cursor: pointer;
+      }
+      
+      
+      button p{
+        color: #fff; 
+      }
+      
+      
+      span{
+        color: #804000; 
+      }
+      
+      
+      .aviso{
+        font-size: 13px;  
+        color: #0e0e0e;  
+      }
+      
+      
+      h2{
+        font-size: 39px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: #804000;
+      }
+      
+      
+      h3{
+        font-size: 16px; 
+        padding-bottom: 30px;
+        color: #0e0e0e;   
+      }
+      
+      
+      p{
+        font-size: 14px; 
+        color: #0e0e0e; 
+      }
+      
+     
+     
+
+        
+
+        
+
+
+       
+
+
+        
+     
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+    
+
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    

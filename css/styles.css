@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url("https://fonts.googleapis.com/css2? family= Quattrocento+Sans & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url("https://fonts.googleapis.com/css2? family= Quattrocento+Sans & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url("https://fonts.googleapis.com/css2? family= Quattrocento+Sans & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url("https://fonts.googleapis.com/css2? family= Quattrocento+Sans & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+header {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: #d2b495;
+  background-image: url(../assets/img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 20px;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 20vh;
+  font-family: "Caveat", cursive;
+  color: black;
+  font-size: 70px;
+}
+
+main {
+  line-height: 200%;
+  background-color: rgb(255, 255, 255);
+}
+main h2 {
+  text-align: center;
+  justify-content: center;
+  color: #804000;
+  padding-top: 20px;
+}
+main p {
+  width: 100%;
+  color: black;
+  font-size: 2.5vh;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  line-height: 200%;
+  padding-top: 0px;
+}
+main .sectioncards {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+main .sectioncards h3 {
+  width: 30%;
+  color: black;
+  width: 100%;
+  padding-bottom: 1px;
+  font-size: 2vh;
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  text-decoration: solid;
+}
+main .sectioncards .card {
+  width: 40%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+main .sectioncards .card img {
+  width: 90%;
+  height: 40vh;
+  transition: width 1s, height 1s, transform 2s;
+}
+main .sectioncards .card img:hover {
+  width: 100%;
+  height: 42vh;
+  transform: rotate(1deg);
+}
+main .tiposdecafe iframe {
+  padding-top: 30px;
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+  padding-left: 20%;
+  padding-right: 10%;
+  justify-content: center;
+}
+main .variedadesdecafe h2 {
+  color: #804000;
+}
+main .variedadesdecafe .variedades_h2 {
+  width: 100%;
+  font-size: 5vh;
+  font-family: "Manrope", sans-serif;
+  padding-top: 70px;
+  padding-left: 30px;
+  justify-content: center;
+  text-align: center;
+  color: #804000;
+}
+main .variedadesdecafe .variedad_p {
+  width: 100%;
+  color: black;
+  font-size: 3vh;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  line-height: 150%;
+  padding-top: 0px;
+}
+main .variedadesdecafe .especies {
+  width: 100%;
+  font-size: 5vh;
+  font-family: "Manrope", sans-serif;
+  padding-top: 70px;
+  padding-left: 30px;
+  justify-content: center;
+  text-align: center;
+  color: #804000;
+}
+main .variedadesdecafe ul li {
+  width: 100%;
+  font-size: 3vh;
+  padding-left: 30px;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: flex-start;
+  color: #c7a17a;
+}
+main .variedadesdecafe .especies_p {
+  width: 100%;
+  color: black;
+  font-size: 3vh;
+  padding-top: 20px;
+  justify-content: flex-start;
+  padding-left: 30px;
+  font-family: "Raleway", sans-serif;
+  line-height: 150%;
+}
+main .variedadesdecafe .vsarabrobus {
+  list-style: none;
+  width: 100%;
+  color: black;
+  font-size: 3vh;
+  font-family: "Raleway", sans-serif;
+  padding-left: 30px;
+  padding-right: 10%;
+  line-height: 200%;
+  margin-top: 20px;
+}
+main .produccion {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .produccion .plantacionh2 {
+  color: #804000;
+  padding-top: 50px;
+}
+main .produccion .produccion_plantacionp {
+  width: 100%;
+  color: black;
+  font-size: 2vh;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  line-height: 200%;
+  padding-top: 0px;
+}
+main .contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+main input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #804000;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+main textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #804000;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+main label {
+  display: block;
+  float: center;
+}
+main button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #804000;
+  border-color: #804000;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+main button p {
+  color: #fff;
+}
+main span {
+  color: #804000;
+}
+main .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+main h2 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #804000;
+}
+main h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+main p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+  background-image: url(../assets/img/svg.png);
+}
+footer p {
+  font-size: 2vh;
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  padding-top: 10px;
+}
+footer .contenedoriconos h3 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-top: 10px;
+}
+footer .contenedoriconos img {
+  width: 9%;
+  transition: width 1s, height 1s, transform 2s;
+}
+footer .contenedoriconos img:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(13deg);
+}
+
+/*# sourceMappingURL=styles.css.map */

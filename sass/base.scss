@@ -1,3 +1,8 @@
-p{
-    color: black;
-}
+@import "variables.scss";
+
+@import "header.scss";
+
+@import "main.scss";
+
+@import  "footer.scss";
+
