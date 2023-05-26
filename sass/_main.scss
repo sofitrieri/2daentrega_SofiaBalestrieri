@@ -29,13 +29,14 @@ main{
         justify-content: center;
         color: $colorprincipal;
         padding-top: 20px;
+        
 
     }
 
     p{
         width: 100%;
         color: $colorsecundario;
-	    font-size:2.5vh;
+	      font-size:2.5vh;
         font-family: $fuentegeneral;
         text-align: left;
         justify-content: center;
@@ -109,6 +110,7 @@ main{
         
         h2{
             color: #804000;
+            text-align: center;
         }
 
         .variedades_h2{
@@ -127,7 +129,7 @@ main{
             color: black;
             font-size:3vh;
             font-family: 'Raleway', sans-serif;
-            text-align: left;
+            text-align: justify;
             justify-content: center;
             padding-left: 10%;
             padding-right: 10%;
